@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinkGu/eslint-config.git"
+  },
+  "author": "TinkGu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinkGu/eslint-config/issues"
+  },
+  "homepage": "https://github.com/TinkGu/eslint-config#readme",
+  "dependencies": {
+    "standard-version": "^9.3.0"
+  }
+}

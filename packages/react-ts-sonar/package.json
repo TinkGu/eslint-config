@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git+https://github.com/TinkGu/eslint-config.git"
   },
+  "scripts": {
+    "release": "standard-version",
+    "postpublish": "git push origin HEAD --follow-tags"
+  },
   "keywords": [
     "lint",
     "eslint",
