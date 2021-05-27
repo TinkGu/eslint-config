@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/TinkGu/eslint-config/compare/v1.1.0...v1.2.0) (2021-05-27)
+
+
+### Features
+
+* enable require in commonjs module ([8daad9c](https://github.com/TinkGu/eslint-config/commit/8daad9ca789cb3f1ec3fc1a8e74f66ad43c31f63))
+* remove unless package.json ([2b87e57](https://github.com/TinkGu/eslint-config/commit/2b87e571ebcb2cbd1b3cd3b395d950ba72a48796))
+
 ## 1.1.0 (2021-05-24)
 
 
