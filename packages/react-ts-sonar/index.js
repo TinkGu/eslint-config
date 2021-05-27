@@ -21,22 +21,22 @@ module.exports = {
       jsx: true,
       generators: true,
       legacyDecorators: true,
-      experimentalObjectRestSpread: true
-    }
+      experimentalObjectRestSpread: true,
+    },
   },
   settings: {
     react: {
       pragma: 'React',
-      version: 'detect'
+      version: 'detect',
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.scss']
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.scss'],
       },
       typescript: {
-        alwaysTryTypes: true
-      }
-    }
+        alwaysTryTypes: true,
+      },
+    },
   },
   globals: {
     NODE_ENV: true,
@@ -45,7 +45,7 @@ module.exports = {
   rules: {
     'no-nested-ternary': 'error',
     'max-len': [1, 150, 2, { ignoreComments: true }],
-    "no-inline-styles/no-inline-styles": 'error',
+    'no-inline-styles/no-inline-styles': 'error',
     'no-console': 'warn',
 
     // https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
@@ -69,8 +69,8 @@ module.exports = {
       'warn',
       {
         allowAllCaps: true,
-        ignore: []
-      }
+        ignore: [],
+      },
     ],
     'react/jsx-uses-react': 'warn',
     'react/jsx-uses-vars': 'warn',
@@ -90,8 +90,8 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': [
       'warn',
       {
-        aspects: ['noHref', 'invalidHref']
-      }
+        aspects: ['noHref', 'invalidHref'],
+      },
     ],
     'jsx-a11y/aria-activedescendant-has-tabindex': 'warn',
     'jsx-a11y/aria-props': 'warn',
@@ -113,5 +113,13 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react-hooks/exhaustive-deps': 'warn',
     'sonarjs/cognitive-complexity': 'off',
-  }
+  },
+  overrides: [
+    {
+      files: ['scripts/*', '.eslintrc.js', 'postcss.config.js', 'zelda.config.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
 };
