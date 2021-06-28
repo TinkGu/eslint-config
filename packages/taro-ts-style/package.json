@@ -8,7 +8,7 @@
     "url": "git+https://github.com/TinkGu/eslint-config.git"
   },
   "scripts": {
-    "release": "npx standard-version --tag-prefix=taro",
+    "release": "npx standard-version --tag-prefix=taro-v",
     "postpublish": "git push origin HEAD --follow-tags"
   },
   "keywords": [
