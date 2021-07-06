@@ -46,7 +46,7 @@ module.exports = {
     'no-nested-ternary': 'error',
     'max-len': [1, 150, 2, { ignoreComments: true }],
     'no-inline-styles/no-inline-styles': 'error',
-    'no-console': 'warn',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
 
     // https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
     'import/first': 'error',

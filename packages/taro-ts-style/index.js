@@ -6,6 +6,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'jsx-quotes': ['error', 'prefer-double'],
     'no-inline-styles/no-inline-styles': 2,
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
   },
   overrides: [
     {
