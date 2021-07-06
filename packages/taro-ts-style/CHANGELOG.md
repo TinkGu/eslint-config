@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/TinkGu/eslint-config/compare/taro-v1.2.0...taro-v1.3.0) (2021-07-06)
+
+
+### Features
+
+* no-console allow .error & .warn ([b55170d](https://github.com/TinkGu/eslint-config/commit/b55170d8b34a9a9f2d3a01ce7c0216c971c1112e))
+
 ## 1.2.0 (2021-06-28)
 
 
