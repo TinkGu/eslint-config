@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/TinkGu/eslint-config/compare/v1.3.0...v1.4.0) (2021-07-23)
+
+
+### Features
+
+* disabled react/prop-types ([aaafe0f](https://github.com/TinkGu/eslint-config/commit/aaafe0f5bf3c6d1aba8facee8784b515718539e9))
+
 ## [1.3.0](https://github.com/TinkGu/eslint-config/compare/v1.2.0...v1.3.0) (2021-07-06)
 
 
