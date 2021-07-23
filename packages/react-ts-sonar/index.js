@@ -60,7 +60,7 @@ module.exports = {
     '@typescript-eslint/camelcase': 'off',
 
     // react
-    'react/prop-types': 'warn',
+    'react/prop-types': 'off',
     'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
     'react/jsx-no-comment-textnodes': 'warn',
     'react/jsx-no-duplicate-props': ['warn', { ignoreCase: true }],

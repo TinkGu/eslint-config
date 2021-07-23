@@ -4,6 +4,7 @@ module.exports = {
   rules: {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
     'jsx-quotes': ['error', 'prefer-double'],
     'no-inline-styles/no-inline-styles': 2,
     'no-console': ['warn', { allow: ['warn', 'error'] }],
