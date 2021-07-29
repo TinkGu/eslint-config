@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/TinkGu/eslint-config/compare/taro-v1.4.0...taro-v1.5.0) (2021-07-29)
+
+
+### Features
+
+* enable 'no-nested-ternary' rules ([8e2291c](https://github.com/TinkGu/eslint-config/commit/8e2291c0147a33227180e43bb4711921f416f07b))
+
 ## [1.4.0](https://github.com/TinkGu/eslint-config/compare/taro-v1.3.0...taro-v1.4.0) (2021-07-23)
 
 
