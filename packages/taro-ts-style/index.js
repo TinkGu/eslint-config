@@ -8,6 +8,7 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-double'],
     'no-inline-styles/no-inline-styles': 2,
     'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'no-nested-ternary': 'error',
   },
   overrides: [
     {
