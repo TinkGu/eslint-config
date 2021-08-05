@@ -1,3 +1,5 @@
+const sharedRules = require('../shared');
+
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'jsx-a11y', 'no-inline-styles'],
@@ -57,7 +59,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/camelcase': 'off',
+    ...sharedRules.namingConvention,
 
     // react
     'react/prop-types': 'off',

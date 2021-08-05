@@ -1,3 +1,5 @@
+const sharedRules = require('../shared');
+
 module.exports = {
   extends: ['taro/react'],
   plugins: ['no-inline-styles'],
@@ -9,6 +11,7 @@ module.exports = {
     'no-inline-styles/no-inline-styles': 2,
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-nested-ternary': 'error',
+    ...sharedRules.namingConvention,
   },
   overrides: [
     {
