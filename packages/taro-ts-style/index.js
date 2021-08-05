@@ -1,4 +1,4 @@
-const sharedRules = require('../shared');
+const sharedRules = require('goose-eslint-config-shared');
 
 module.exports = {
   extends: ['taro/react'],
