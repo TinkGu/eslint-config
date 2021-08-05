@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/TinkGu/eslint-config/compare/v1.4.0...v1.5.0) (2021-08-05)
+
+
+### Features
+
+* enable 'no-nested-ternary' rules ([8e2291c](https://github.com/TinkGu/eslint-config/commit/8e2291c0147a33227180e43bb4711921f416f07b))
+* migrate utils to shared package ([9412733](https://github.com/TinkGu/eslint-config/commit/941273307e527aff07f1a550c072d3561502d71f))
+* more strict naming convention ([667651c](https://github.com/TinkGu/eslint-config/commit/667651c4bdf3710716b13bc1c31c3c2463634463))
+* use utils from shared package ([fdc9c88](https://github.com/TinkGu/eslint-config/commit/fdc9c887e10bc4605d3077fb1ad12b5ddeb0eedf))
+
 ## [1.4.0](https://github.com/TinkGu/eslint-config/compare/v1.3.0...v1.4.0) (2021-07-23)
 
 
