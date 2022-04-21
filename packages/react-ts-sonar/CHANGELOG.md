@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/TinkGu/eslint-config/compare/v1.8.0...v1.8.1) (2022-04-21)
+
+
+### Bug Fixes
+
+* antd import resolver issue ([f584e5a](https://github.com/TinkGu/eslint-config/commit/f584e5a362f50006b69c70f75d88bef8afca9c94))
+
 ## [1.8.0](https://github.com/TinkGu/eslint-config/compare/v1.7.0...v1.8.0) (2022-04-21)
 
 
