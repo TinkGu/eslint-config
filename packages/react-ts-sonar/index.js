@@ -115,6 +115,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react-hooks/exhaustive-deps': 'warn',
     'sonarjs/cognitive-complexity': 'off',
+    'sonarjs/no-duplicate-string': 'off',
   },
   overrides: [
     {
