@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/TinkGu/eslint-config/compare/v1.7.0...v1.8.0) (2022-04-21)
+
+
+### Features
+
+* make dependencies internal ([04e7c70](https://github.com/TinkGu/eslint-config/commit/04e7c701833344f7aad8a4d6965c74aca93fc166))
+
 ## [1.7.0](https://github.com/TinkGu/eslint-config/compare/v1.6.0...v1.7.0) (2022-04-21)
 
 
