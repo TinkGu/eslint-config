@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/TinkGu/eslint-config/compare/taro-v1.6.0...taro-v1.7.0) (2022-04-21)
+
+
+### Features
+
+* make dependencies internal ([cd7e929](https://github.com/TinkGu/eslint-config/commit/cd7e9297249e1db0c36267861a1b5b83dd236609))
+* off rule `sonarjs/no-duplicate-string` ([e314ae3](https://github.com/TinkGu/eslint-config/commit/e314ae3c4dea0bba4988688b948e829e9b14d33b))
+
 ## [1.6.0](https://github.com/TinkGu/eslint-config/compare/taro-v1.5.0...taro-v1.6.0) (2021-08-05)
 
 
