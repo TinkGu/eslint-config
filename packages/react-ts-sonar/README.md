@@ -11,8 +11,6 @@ npm i eslint-config-react-ts-sonar -D
 peer install, you can copy this on your `package.json`
 
 ```json
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
     "eslint": "^7.13.0",
     "typescript": "^3.8.3"
 ```
