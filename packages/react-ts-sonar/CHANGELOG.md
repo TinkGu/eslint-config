@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/TinkGu/eslint-config/compare/v1.5.0...v1.6.0) (2022-04-21)
+
+
+### Features
+
+* off rule `sonarjs/no-duplicate-string` ([e314ae3](https://github.com/TinkGu/eslint-config/commit/e314ae3c4dea0bba4988688b948e829e9b14d33b))
+
 ## [1.5.0](https://github.com/TinkGu/eslint-config/compare/v1.4.0...v1.5.0) (2021-08-05)
 
 
