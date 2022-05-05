@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/TinkGu/eslint-config/compare/v1.8.1...v1.9.0) (2022-05-05)
+
+
+### Features
+
+* add check-file kebab style lint ([8338fce](https://github.com/TinkGu/eslint-config/commit/8338fce76a6a62def8993597e81eeb14afaac912))
+
 ### [1.8.1](https://github.com/TinkGu/eslint-config/compare/v1.8.0...v1.8.1) (2022-04-21)
 
 
