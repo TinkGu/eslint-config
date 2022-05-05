@@ -1,8 +1,9 @@
 const sharedRules = require('goose-eslint-config-shared');
+const checkFileNaming = require('./utils/check-file');
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'jsx-a11y', 'no-inline-styles'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'import', 'jsx-a11y', 'no-inline-styles', 'check-file'],
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
@@ -60,6 +61,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     ...sharedRules.namingConvention,
+    ...checkFileNaming,
 
     // react
     'react/prop-types': 'off',
