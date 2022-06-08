@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/TinkGu/eslint-config/compare/v1.9.0...v1.10.0) (2022-06-08)
+
+
+### Features
+
+* support swiper.js ([831ba71](https://github.com/TinkGu/eslint-config/commit/831ba71ff718a23ce52b6ee7a6fc10cb8d598de4))
+
 ## [1.9.0](https://github.com/TinkGu/eslint-config/compare/v1.8.1...v1.9.0) (2022-05-05)
 
 
