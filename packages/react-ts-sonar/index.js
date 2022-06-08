@@ -55,6 +55,14 @@ module.exports = {
     'import/first': 'error',
     'import/no-amd': 'error',
     'import/no-webpack-loader-syntax': 'error',
+    // see https://github.com/nolimits4web/swiper/issues/4871
+    // and best practice is https://swiperjs.com/react#usage-with-create-react-app
+    'import/no-unresolved': [
+      2,
+      {
+        ignore: ['^swiper/'],
+      },
+    ],
 
     // ts
     '@typescript-eslint/explicit-module-boundary-types': 'off',
