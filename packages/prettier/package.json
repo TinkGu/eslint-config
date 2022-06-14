@@ -1,6 +1,6 @@
 {
   "name": "prettier-preset-goose",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "prettier config preset with import sort and goose style",
   "main": "index.js",
   "repository": {
