@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/TinkGu/eslint-config/compare/v0.0.1...v1.11.0) (2023-01-31)
+
+
+### Features
+
+* sopprt jsx-runtime, not need to write import React ([0ccc349](https://github.com/TinkGu/eslint-config/commit/0ccc3495ba9abebe83f6ecc42347357857ace736))
+
+
+### Bug Fixes
+
+* fix prettier pnpm integration issue ([7f8d5ef](https://github.com/TinkGu/eslint-config/commit/7f8d5efe178bc6071a8400beb3ebb16ae696ab62))
+
 ## [1.10.0](https://github.com/TinkGu/eslint-config/compare/v1.9.0...v1.10.0) (2022-06-08)
 
 
